@@ -12,6 +12,8 @@ The release contains the following files:
 
 Check out the [latest release](https://github.com/mevdschee/postcodes-nl/releases).
 
+NB: The CSV dataset is 341MB but with 7zip compression it is reduced to 15MB.
+
 ## Running
 
 Build using:
