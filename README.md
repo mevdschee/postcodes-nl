@@ -60,9 +60,9 @@ Here is the SQL for those 3 records (including the table structure):
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
     
     INSERT INTO `postcodes` (`straat`, `huisnummer`, `huisletter`, `huistoevoeging`, `woonplaats`, `postcode`) VALUES
-    ('De Ruijterkade',	'99',	'',	'',	'Amsterdam',	'1011AB'),
-    ('De Ruijterkade',	'105',	'',	'1',	'Amsterdam',	'1011AB'),
-    ('De Ruijterkade',	'105',	'',	'2',	'Amsterdam',	'1011AB');
+    ('De Ruijterkade',	'99',	NULL,	NULL,	'Amsterdam',	'1011AB'),
+    ('De Ruijterkade',	'105',	NULL,	'1',	'Amsterdam',	'1011AB'),
+    ('De Ruijterkade',	'105',	NULL,	'2',	'Amsterdam',	'1011AB');
 
 NB: The 24.04 release has 9771442 records.
 
