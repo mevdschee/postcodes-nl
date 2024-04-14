@@ -16,27 +16,27 @@ NB: The CSV dataset is 341MB but with 7zip compression it is reduced to 15MB.
 
 ## Running
 
-Build using:
-
-    bash release.sh
-
-Run using:
+Configure your database in `postcodes-nl.php` and run using:
 
     bash postcodes-nl.sh
-
-Configure your database in `postcodes-nl.php`.
-
-## Requirements
-
-To build you need:
-
-    sudo apt install 7zip wget php-cli gh
 
 To run you need:
 
     sudo apt install 7zip php-cli php-mysql
 
 This assumes you are using a Debian based Linux distribution.
+
+## Releasing
+
+Release using:
+
+    bash release.sh
+
+To release you need:
+
+    sudo apt install 7zip wget php-cli gh
+
+This uses the Github CLI on Debian Linux.
 
 ## Sample data
 
