@@ -48,10 +48,8 @@ NB: The 24.04 release has 9771442 records.
 
 ### Credits
 
-This project allows to load a minimal set of data from:
+This project loads the smallest dataset from:
 
 - [github.com/berthubert/bagconv](https://github.com/berthubert/bagconv)
-
-And also makes it even smaller by only having 6 columns.
 
 See also [this blog post](https://berthub.eu/articles/posts/dutch-postcode-and-building-database/) by Bert Hubert.
