@@ -5,6 +5,6 @@ if [ ! -f pcodes.zip ]; then
 fi
 zcat pcodes.zip | php minimize.php | 7z a postcodes-nl.7z -sipostcodes-nl.csv
 newTag=$(date '+v%y.%m')
-gh release delete $newTag
+#gh release delete $newTag
 gh release create $newTag postcodes-nl.php postcodes-nl.7z postcodes-nl.sh
 rm pcodes.zip
