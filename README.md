@@ -10,7 +10,7 @@ To run you need:
 
 Build using:
 
-    bash release
+    bash release.sh
 
 Run using:
 
