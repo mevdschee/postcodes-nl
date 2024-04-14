@@ -2,6 +2,8 @@
 
 Dutch postcodes in CSV format (7zip) and MySQL import script
 
+Check out the [latest release](https://github.com/mevdschee/postcodes-nl/releases).
+
 ## Files
 
 The release contains the following files:
@@ -9,8 +11,6 @@ The release contains the following files:
 - **`postcodes-nl.7z`**: Dataset in CSV format with 7zip compression
 - **`postcodes-nl.php`**: Script to load the CSV into a MySQL database
 - **`postcodes-nl.sh`**: Script to unpack the 7zip archive and run PHP
-
-Check out the [latest release](https://github.com/mevdschee/postcodes-nl/releases).
 
 NB: The CSV dataset is 341MB but with 7zip compression it is reduced to 15MB.
 
