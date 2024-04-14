@@ -19,6 +19,9 @@ $i = 0;
 $pdo->beginTransaction();
 echo "Progress: 0%";
 while ($record = fgetcsv($r)) {
+    $record = array_map(function ($v) {
+        return $v ?: null;
+    }, $record);
     $statement->execute($record);
     $i++;
     if ($i % 100000 == 0) {
