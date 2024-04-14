@@ -1,12 +1,18 @@
-# postcodes-nl
+# Postcodes NL
 
-To build you need:
+Dutch postcodes in CSV format (7zip) and MySQL import script
 
-    sudo apt install 7zip wget php-cli gh
+## Files
 
-To run you need:
+The release contains the following files:
 
-    sudo apt install 7zip php-cli php-mysql
+- **`postcodes-nl.7z`**: Dataset in CSV format with 7zip compression
+- **`postcodes-nl.php`**: Script to load the CSV into a MySQL database
+- **`postcodes-nl.sh`**: Script to unpack the 7zip archive and run PHP
+
+Check out the [latest release](https://github.com/mevdschee/postcodes-nl/releases).
+
+## Running
 
 Build using:
 
@@ -18,7 +24,19 @@ Run using:
 
 Configure your database in `postcodes-nl.php`.
 
-### Sample data
+## Requirements
+
+To build you need:
+
+    sudo apt install 7zip wget php-cli gh
+
+To run you need:
+
+    sudo apt install 7zip php-cli php-mysql
+
+This assumes you are using a Debian based Linux distribution.
+
+## Sample data
 
 Here are the first 3 records of the 24.04 release in CSV format:
 
@@ -46,7 +64,7 @@ Here is the SQL for those 3 records (including the table structure):
 
 NB: The 24.04 release has 9771442 records.
 
-### Credits
+## Credits
 
 This project loads the smallest dataset from:
 
