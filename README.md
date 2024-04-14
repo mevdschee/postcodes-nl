@@ -20,14 +20,14 @@ Configure your database in `postcodes-nl.php`.
 
 ### Sample data
 
-Here are the first 3 records of the 24.04 release:
+Here are the first 3 records of the 24.04 release in CSV format:
 
     straat,huisnummer,huisletter,huistoevoeging,woonplaats,postcode
     "De Ruijterkade",99,,,Amsterdam,1011AB
     "De Ruijterkade",105,,1,Amsterdam,1011AB
     "De Ruijterkade",105,,2,Amsterdam,1011AB
 
-Here is the SQL for those 3 records:
+Here is the SQL for those 3 records (including the table structure):
 
     CREATE TABLE `postcodes` (
     `straat` varchar(255) DEFAULT NULL,
