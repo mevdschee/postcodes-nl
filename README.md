@@ -1,6 +1,6 @@
 # Postcodes NL
 
-Dutch postcodes in CSV format (7zip) and MySQL import script
+Dutch postcodes in CSV format (7zip) and MySQL import script to allow for address validation in the Netherlands.
 
 Check out the [latest release](https://github.com/mevdschee/postcodes-nl/releases).
 
