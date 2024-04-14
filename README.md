@@ -20,7 +20,7 @@ Configure your database in `postcodes-nl.php`.
 
 ### Credits
 
-This project allows to load a minimal set of data from:
+This project loads the smallest dataset from:
 
 - [github.com/berthubert/bagconv](https://github.com/berthubert/bagconv)
 
