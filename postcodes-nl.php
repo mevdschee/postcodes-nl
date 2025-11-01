@@ -1,9 +1,9 @@
 <?php
 // config
 $hostname = 'localhost';
-$username = 'postcodes';
-$password = 'postcodes';
-$database = 'postcodes';
+$username = 'vupress';
+$password = 'vupress';
+$database = 'vupress';
 // code
 $dsn = "mysql:host=$hostname;dbname=$database;charset=UTF8";
 $pdo = new PDO($dsn, $username, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
